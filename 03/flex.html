@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <title>Document</title>
+<style>
+    	.con{
+    		background-color: #7ed6df;
+				height: 100vh;
+    	}
+    	.green{
+    		background-color: green;
+    	}
+    	.blue{
+    		background-color: blue;
+    	}
+    	.rowHeight{
+    		background-color: #000;
+    		height: 100px;
+    	}
+</style>
+</head>
+<body>
+<H1>Flex.html</H1>
+
+<div class="container con">
+align-items-start
+	<div class="row rowHeight align-items-start"> <!-- aply to rows -->
+		<div class="col blue ">column 1</div>
+		<div class="col green">column 2</div>
+		<div class="col blue">column 3</div>
+	</div>
+align-items-center
+    <div class="row rowHeight align-items-center"> <!-- aply to rows -->
+        <div class="col blue ">column 1</div>
+        <div class="col green">column 2</div>
+        <div class="col blue">column 3</div>
+    </div>
+align-items-end
+    <div class="row rowHeight align-items-end"> <!-- aply to rows -->
+        <div class="col blue ">column 1</div>
+        <div class="col green">column 2</div>
+        <div class="col blue">column 3</div>
+    </div>
+align-items-baseline
+    <div class="row rowHeight align-items-baseline"> <!-- aply to rows -->
+        <div class="col blue ">column 1</div>
+        <div class="col green">column 2</div>
+        <div class="col blue">column 3</div>
+    </div>
+align-items-stretch
+    <div class="row rowHeight align-items-stretch"> <!-- aply to rows -->
+        <div class="col blue ">column 1</div>
+        <div class="col green">column 2</div>
+        <div class="col blue">column 3</div>
+    </div>
+
+align-self end, center start
+	<div class="row rowHeight">
+		<div class="col green align-self-end">column 1</div> <!-- aply to col -->
+		<div class="col blue align-self-center">column 2</div>
+		<div class="col green align-self-start">column 3</div>
+	</div>
+
+	
+	
+</div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
